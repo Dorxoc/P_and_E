@@ -1,6 +1,6 @@
 
  body {
-     background-color: rgb(90, 125, 172);
+     background-color: rgb(233, 236, 240);
      font-family: 'Sen', sans-serif;
 }
 
@@ -8,6 +8,19 @@
     max-width: 1200px;
     width: 90%;
     shape-margin: auto;
+}
+
+#marca1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: midnightblue;
+}
+
+#marca2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    color: rgb(102, 213, 233);
+    
 }
 
 header .contenedor {
@@ -27,6 +40,65 @@ header ul {
 
 header ul li a{
     text-decoration: none ;
-    color: rgb(195, 209, 208);
+    color: rgb(196, 237, 238);
+    font-size: 20px;
+    
+}
+
+header {
+    background-image: 
+    linear-gradient(rgba(121, 146, 202, 0.9),
+    rgba(192, 200, 228, 0.9)),
+    url(fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#contenedor-titulo-flex{
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: mintcream;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: mintcream;
+    
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+.contenedor-titulo a, #sobre-nosotros a {
+    text-decoration: none;
+    color: mintcream;
+    background: slateblue;
+    padding: 14px 22px;
+    display: inline-block;
+    width: 128px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 55px;
+    margin: 20px;
+}
+.contenedor-sobre-nosotros {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.texto {
+    width: 42%;
 }
 
