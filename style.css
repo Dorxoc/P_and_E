@@ -4,6 +4,12 @@
      font-family: 'Sen', sans-serif;
 }
 
+.contenedor {
+    max-width: 1200px;
+    width: 90%;
+    shape-margin: auto;
+}
+
 header .contenedor {
     display: flex;
     justify-content: space-between;
